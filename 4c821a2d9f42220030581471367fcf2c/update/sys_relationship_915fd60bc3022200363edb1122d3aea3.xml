@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>core_company</basic_apply_to>
+        <basic_query_from>sn_vdr_risk_asmt_doc_assessment</basic_query_from>
+        <insert_callback/>
+        <name>Associated Questionnaires</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+	current.addQuery('table', 'core_company');
+	current.addQuery('applies_to',parent.sys_id);
+})(current, parent);
+
+//TEST CHANGES]]></query_with>
+        <reference_field>metric_type</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-09-28 15:15:02</sys_created_on>
+        <sys_id>915fd60bc3022200363edb1122d3aea3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Associated Questionnaires</sys_name>
+        <sys_package display_value="GRC: Vendor Risk Management" source="sn_vdr_risk_asmt">4c821a2d9f42220030581471367fcf2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Vendor Risk Management">4c821a2d9f42220030581471367fcf2c</sys_scope>
+        <sys_update_name>sys_relationship_915fd60bc3022200363edb1122d3aea3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-24 16:39:23</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=915fd60bc3022200363edb1122d3aea3"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="GRC: Vendor Risk Management">4c821a2d9f42220030581471367fcf2c</claim_owner_scope>
+        <claim_timestamp>17fbccd07750000001</claim_timestamp>
+        <metadata_update_name>sys_relationship_915fd60bc3022200363edb1122d3aea3</metadata_update_name>
+        <previous_claim_app_version>13.0.1</previous_claim_app_version>
+        <previous_claim_name>GRC: Vendor Risk Management</previous_claim_name>
+        <previous_claim_scope>4c821a2d9f42220030581471367fcf2c</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-24 16:40:27</sys_created_on>
+        <sys_id>c65b35771b9ec1101ec6a642604bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-24 16:40:27</sys_updated_on>
+    </sys_claim>
+</record_update>
