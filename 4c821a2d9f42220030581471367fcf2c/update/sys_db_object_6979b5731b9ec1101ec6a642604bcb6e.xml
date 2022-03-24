@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>u1kUaaaDWdtbxU7yfUyTfx4CzWLBOAGX-Query Results</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>sn_vdr_risk_asmt_u_cmdb_qb_result_a5decbd9bf7fe438c886b904298d80d566a44173</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Query Builder Results" name="cmdb_qb_result_base">1026833f1b5101101ec6a642604bcb96</super_class>
+        <sys_class_code>!!</sys_class_code>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path>/!!</sys_class_path>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-24 16:32:14</sys_created_on>
+        <sys_id>6979b5731b9ec1101ec6a642604bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sn Vdr Risk Asmt U CMDB Qb Result A5decbd9bf7fe438c886b904298d80d566a44173</sys_name>
+        <sys_package display_value="GRC: Vendor Risk Management" source="sn_vdr_risk_asmt">4c821a2d9f42220030581471367fcf2c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GRC: Vendor Risk Management">4c821a2d9f42220030581471367fcf2c</sys_scope>
+        <sys_update_name>sys_db_object_6979b5731b9ec1101ec6a642604bcb6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-24 16:32:14</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="GRC: Vendor Risk Management">4c821a2d9f42220030581471367fcf2c</claim_owner_scope>
+        <claim_timestamp>17fbcc613390000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_6979b5731b9ec1101ec6a642604bcb6e</metadata_update_name>
+        <previous_claim_app_version>13.0.1</previous_claim_app_version>
+        <previous_claim_name>GRC: Vendor Risk Management</previous_claim_name>
+        <previous_claim_scope>4c821a2d9f42220030581471367fcf2c</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-24 16:32:52</sys_created_on>
+        <sys_id>b2993d731b9ec1101ec6a642604bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-24 16:32:52</sys_updated_on>
+    </sys_claim>
+</record_update>
